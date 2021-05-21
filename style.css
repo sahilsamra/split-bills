@@ -1,0 +1,126 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #2e3f51;
+  font-family: 'Pattaya', sans-serif;
+}
+.wrapper {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  background-color: #dbcbbc;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-family: 'Reggae One', cursive;
+  margin-bottom: 2rem;
+}
+
+form {
+  margin: 0 auto;
+  width: 35%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+label {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+input {
+  margin: 0.8rem 2rem 2rem 0;
+  display: block;
+  font-size: 1.1rem;
+  border: none;
+  width: 75%;
+}
+input::placeholder {
+  color: #c1c1c1;
+}
+input:focus {
+  outline: none;
+}
+
+.addTip {
+  border: none;
+  background-color: #fff;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #dbcbbc;
+  font-family: "Lora", serif;
+}
+.addTip:hover {
+  color: #2e3f51;
+}
+
+.buttonSpace {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.buttonSpace button {
+  margin-top: 0.6rem;
+  border-radius: 12px;
+  display: inline-block;
+  padding: 0.5rem 4rem;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 1.2rem;
+}
+.splitBtn {
+  transition: 0.5s;
+  background-color: #dbcbbc;
+  color: #fff;
+}
+.splitBtn:hover {
+  border: 1px solid #dbcbbc;
+  background-color: #fff;
+  letter-spacing: 0.4rem;
+  color: #2e3f51;
+}
+
+.perPerson {
+  padding-top: 1.5rem;
+  font-family: 'Reggae One', cursive;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  color: #dbcbbc;
+}
+
+footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #2e3f51;
+  background-color: #dbcbbc;
+  padding-top: 1rem;
+}
+
+/*  =============== . MEDIA QUERIES ============ */
+@media screen and (max-width: 992px) {
+  .insert {
+    width: 80%;
+  }
+  label {
+    display: block;
+  }
+
+  #submit {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .insert {
+    width: 90%;
+  }
+  .buttonSpace button {
+    width: 90%;
+    display: inline-table;
+  }
+}
