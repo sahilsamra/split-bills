@@ -57,6 +57,14 @@ input:focus {
 .addTip:hover {
   color: #2e3f51;
 }
+.tipInput {
+  display: none;
+  transition: display 3s ease-in;
+  -webkit-transition: display 3s ease-in;
+}
+.tipPercent {
+  margin-bottom: 0.5rem;
+}
 
 .buttonSpace {
   margin-top: 1rem;
