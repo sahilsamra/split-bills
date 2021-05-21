@@ -11,3 +11,8 @@ splitBtn.addEventListener('click', (e) => {
   splitting();
 })
 
+document.querySelector('.resetBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  document.querySelector('form').reset();
+  document.querySelector('.perPerson').innerHTML = "0"
+})
